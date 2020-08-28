@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'gsredes';
+    src: 
+        url('../webfonts/gsredes.woff') format('woff'), 
+        url('../webfonts/gsredes.ttf') format('truetype');
+    font-weight: normal !important;
+    vertical-align: middle;
+}
+
+.fgs:before {
+    font-family: gsredes;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-size: 2rem;
+    color: white;
+    line-height: 0.7rem !important;
+}
+
+.fgs-2x:before { font-size: 3rem; }
+.fgs-3x:before { font-size: 6rem; }
+.fgs-4x:before { font-size: 8rem; }
+.fgs-5x:before { font-size: 10rem; }
+
+.fgs-area:before {
+    content: "a";
+}
+.fgs-usermanager:before {
+    content: "b";
+}
+.fgs-add:before {
+    content: "c";
+}
+.fgs-config:before {
+    content: "d";
+}
+.fgs-email:before {
+    content: "e";
+}
+.fgs-facebook:before {
+    content: "f";
+}
+.fgs-github:before {
+    content: "g";
+}
+.fgs-box:before {
+    content: "h";
+}
+.fgs-instagram:before {
+    content: "i";
+}
+.fgs-icon:before {
+    content: "j";
+}
+.fgs-linkedin:before {
+    content: "k";
+}
+.fgs-localizacao:before {
+    content: "l";
+}
+.fgs-avaliacao:before {
+    content: "m";
+}
+.fgs-grafico:before {
+    content: "n";
+}
+.fgs-edit:before {
+    content: "o";
+}
+.fgs-phone:before {
+    content: "p";
+}
+.fgs-oculos:before {
+    content: "q";
+}
+.fgs-delete:before {
+    content: "r";
+}
+.fgs-lupa:before {
+    content: "s";
+}
+.fgs-twitter:before {
+    content: "t";
+}
+.fgs-user:before {
+    content: "u";
+}
+.fgs-detalhes:before {
+    content: "v";
+}
+.fgs-whattsapp:before {
+    content: "w";
+}
+.fgs-trofeu:before {
+    content: "x";
+}
+.fgs-celular:before {
+    content: "y";
+}
+.fgs-tabela:before {
+    content: "z";
+}
+.fgs-parceria:before {
+    content: "A";
+}
+.fgs-post:before {
+    content: "B";
+}
+.fgs-polaroid:before {
+    content: "C";
+}
+.fgs-dislike:before {
+    content: "D";
+}
+.fgs-likea:before {
+    content: "E";
+}
+.fgs-rede:before {
+    content: "F";
+}
+.fgs-folha:before {
+    content: "G";
+}
+.fgs-menosbt:before {
+    content: "H";
+}
+.fgs-maisbt:before {
+    content: "I";
+}
+.fgs-star:before {
+    content: "J";
+}
+.fgs-talk:before {
+    content: "K";
+}
+.fgs-play:before {
+    content: "L";
+}
+.fgs-wifi:before {
+    content: "M";
+}
+.fgs-coins:before {
+    content: "N";
+}
+.fgs-tag:before {
+    content: "O";
+}
+
+.btn-fgs:before{
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.btn-fgs:hover:before{
+    color: rgb(139, 139, 139);
+}

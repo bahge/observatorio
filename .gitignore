@@ -1,0 +1,12 @@
+
+vendor/
+
+upload/*
+
+!upload/upload.php
+
+config/cfg.php
+
+assets/webfonts/*
+!assets/webfonts/gsredes.ttf
+!assets/webfonts/gsredes.woff

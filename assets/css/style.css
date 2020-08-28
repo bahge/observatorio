@@ -1,0 +1,169 @@
+:root{
+    --c01: #459b4a;
+    --c02: #4a3fe1;
+    --c03: #c23435;
+    --c04: #562A83;
+
+}
+
+.txt-c-01, .txt-c-01 a.active{ color: var(--c01); }
+.bg-c-01{ background-color: var(--c01); }
+.bg-c-01-4 { background-color: rgba(74, 63, 225, 0.4); }
+.bg-bd-c-01 { border: 1px solid var(--c01); }
+
+.txt-c-02, .txt-c-02 a.active{ color: var(--c02); }
+.bg-c-02{ background-color: var(--c02); }
+.bg-c-02-4 { background-color: rgba(69, 155, 74, 0.4); }
+.bg-bd-c-02 { border: 1px solid var(--c02); }
+
+.txt-c-03, .txt-c-03 a.active{ color: var(--c03); }
+.bg-c-03{ background-color: var(--c03); }
+.bg-c-03-4 { background-color: rgba(94, 52, 53, 0.2); }
+.bg-bd-c-03 { border: 1px solid var(--c03); }
+
+a.txt-c-01:hover, a.txt-c-02:hover,
+a.txt-c-03:hover, a.txt-c-04:hover {
+    text-decoration: none; 
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+a.txt-c-01:hover { color: var(--c01); }
+a.txt-c-02:hover { color: var(--c02); }
+a.txt-c-03:hover { color: var(--c03); }
+a.txt-c-04:hover { color: var(--c04); }
+
+.txt-c-04, .txt-c-04 a.active{ color: var(--c04); }
+.bg-c-04{ background-color: var(--c04); }
+.bg-c-04-4 { background-color: rgba(86, 42, 131, 0.4); }
+.bg-bd-c-04 { border: 1px solid var(--c04); }
+
+
+.bg-img-01{
+  min-height: 500px;
+  height:100vh;
+  background: url('../img/001.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bg-img-02{
+    min-height: 500px;
+    background: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.bg-img-02 a {
+    text-decoration: none;
+}
+
+.bg-img-02 a:hover {
+    opacity: 0.7;
+}
+
+.bg-opacity-01{
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.bg-opacity-02{
+    background: rgba(255, 255, 255, 0.7);
+    height: 100vh;
+}
+
+ol.carousel-indicators li {
+    background-color: blue;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: red;
+}
+
+.pt-6 {
+    padding-top: 140px;
+}
+
+.galery-item {
+    transition: 500ms;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.galery-item.active {
+    border: 2px solid blue;
+    animation: stark 5s infinite;
+}
+@keyframes stark {
+    0% {
+        border: 2px solid rgba(0, 255, 0, 0.2);
+        background-color: transparent;
+    }
+    50% {
+        border: 2px solid rgba(0, 255, 0, 1);
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+    100% {
+        border: 2px solid rgba(0, 255, 0, 0.2);
+        background-color: transparent;
+    }
+}
+#closeModal {
+    color: rgba(255, 0, 0, 1);
+    transition: 200ms;
+}
+#closeModal:hover {
+    color: rgba(255, 0, 0, 0.7);
+}
+
+#formCad label{
+    font-weight: bold;
+    color: var(--c03);
+}
+
+#formCad {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px; 
+    width: 100%; 
+    position:relative; 
+}
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; 
+    float: left; 
+}
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding:10px; 
+    margin:10px; 
+    background:#f1f1f1; 
+    color:#666;
+}
+
+    
+.MultiCarousel .leftLst.over, 
+.MultiCarousel .rightLst.over { 
+    pointer-events: none; 
+    background:#ccc; 
+}
+
+.img-equipe{
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.item .card-body{
+    min-height: 150px;
+}
